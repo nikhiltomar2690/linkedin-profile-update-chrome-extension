@@ -4,6 +4,10 @@
   "version": "1.0",
   "description": "Change all LinkedIn profile pictures to a single image.",
   "permissions": ["activeTab", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "icons": {
     "48": "icon.png"
   },

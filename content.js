@@ -1,7 +1,9 @@
 function changeProfilePictures(newProfilePictureUrl) {
+  // selecting all images with the given classes
   const profilePictures = document.querySelectorAll(
     "img.EntityPhoto-circle-0, img.EntityPhoto-circle-2,img.EntityPhoto-circle-1,img.EntityPhoto-square-2,img.EntityPhoto-square-0,img.EntityPhoto-circle-3,img.global-nav__me-photo,img.EntityPhoto-circle-5"
   );
+  // run a loop over all the images and change their src to the newProfilePictureUrl
   profilePictures.forEach((img) => {
     img.src = newProfilePictureUrl;
     img.srcset = `${newProfilePictureUrl} 1x, ${newProfilePictureUrl} 2x`;
