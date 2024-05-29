@@ -5,7 +5,7 @@
   "description": "Change all LinkedIn profile pictures to a single image.",
   "permissions": ["activeTab", "storage"],
   "icons": {
-    "48": "icon.png"
+    "48": "icon1.png"
   },
   "action": {
     "default_popup": "popup.html",
